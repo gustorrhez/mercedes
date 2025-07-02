@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes Palomar | Emprendimiento, Liderazgo y Crecimiento</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Color de fondo claro */
+            color: #334155; /* Color de texto principal */
+        }
+        .text-primary {
+            color: #ef4444; /* Rojo para acentos */
+        }
+        .bg-primary {
+            background-color: #ef4444;
+        }
+        .btn {
+            @apply inline-block px-8 py-3 rounded-full font-semibold transition duration-300 ease-in-out;
+        }
+        .btn-primary {
+            @apply bg-primary text-white hover:bg-red-600;
+        }
+        .btn-outline {
+            @apply border border-primary text-primary hover:bg-red-50 hover:text-red-600;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-primary">Mercedes Palomar</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#hero" class="hover:text-primary transition duration-200">Inicio</a></li>
+                    <li><a href="#quien-soy" class="hover:text-primary transition duration-200">Quién Soy</a></li>
+                    <li><a href="#impacto-logros" class="hover:text-primary transition duration-200">Impacto</a></li>
+                    <li><a href="#speaker-section" class="hover:text-primary transition duration-200">Speaker</a></li>
+                    <li><a href="#servicios" class="hover:text-primary transition duration-200">Servicios</a></li>
+                    <li><a href="#contacto" class="hover:text-primary transition duration-200">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative bg-gradient-to-r from-red-50 to-red-100 py-20 md:py-32 flex items-center justify-center min-h-[600px]">
+        <div class="container mx-auto px-4 text-center z-10">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+                    <span class="block text-primary">Mercedes Palomar:</span>
+                    <span class="block">Impulsa tu Emprendimiento y Liderazgo con Propósito</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
+                    Cofundadora de Lady Multitask, Autora, Speaker y Mentora. Te acompaño a equilibrar tu vida y alcanzar tus metas con impacto.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#servicios" class="btn btn-primary">Descubre mis Servicios</a>
+                    <a href="#contacto" class="btn btn-outline">Agenda una Consulta</a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute inset-0 opacity-20">
+            <img src="https://placehold.co/1920x1080/fecaca/ef4444?text=Mercedes+Palomar+Vision" alt="" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <!-- Quién Soy / Misión -->
+    <section id="quien-soy" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="order-2 md:order-1">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Quién Soy y Mi Misión</h2>
+                <p class="text-lg text-gray-700 mb-4">
+                    Soy Mercedes Palomar, emprendedora y cofundadora de <strong class="text-primary">Lady Multitask</strong>, una comunidad que ha transformado la vida de más de <strong class="text-primary">1.2 millones de mujeres en 12 países</strong>. Mi misión es empoderar a mujeres para que logren un equilibrio integral entre su vida profesional, personal y familiar, impulsando sus negocios y su crecimiento sin sacrificar ninguna área.
+                </p>
+                <p class="text-lg text-gray-700 mb-4">
+                    A través de mi experiencia como líder, autora del libro <strong class="text-primary">"Ponte las Pilas"</strong> y conferencista TEDx, ofrezco herramientas y estrategias prácticas para que cada mujer descubra su potencial, establezca límites saludables y construya una vida plena y con propósito.
+                </p>
+                <p class="text-lg text-gray-700">
+                    Creo firmemente en el poder de la comunidad y el apoyo mutuo, y mi trabajo se centra en fomentar un espacio donde las mujeres puedan crecer, aprender y alcanzar la independencia económica juntas.
+                </p>
+            </div>
+            <div class="order-1 md:order-2 flex justify-center">
+                <img src="https://placehold.co/500x500/fecaca/ef4444?text=Mercedes+Palomar+Perfil" alt="" class="rounded-lg shadow-lg w-full max-w-md object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Impacto y Logros (Detallada de homev2.html) -->
+    <section id="impacto-logros" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Su Impacto y Logros Destacados</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Logro 1: Lady Multitask Alcance -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">🌎</div> <!-- Icono de mundo -->
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Lady Multitask: Más de 1.2 Millones de Mujeres</h3>
+                    <p class="text-gray-700">Cofundadora de una comunidad que ha impactado la vida de millones de mujeres en 12 países.</p>
+                </div>
+                <!-- Logro 2: Presencia Internacional -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">📍</div> <!-- Icono de ubicación -->
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Expansión Global en 80+ Ciudades</h3>
+                    <p class="text-gray-700">Liderando el crecimiento de Lady Multitask a través de América Latina, EE.UU., España y Japón.</p>
+                </div>
+                <!-- Logro 3: Autora "Ponte las Pilas" -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">📚</div> <!-- Icono de libro -->
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Autora del Bestseller "Ponte las Pilas"</h3>
+                    <p class="text-gray-700">Un recurso clave para la gestión del tiempo y el equilibrio integral.</p>
+                </div>
+                <!-- Logro 4: TEDx Speaker -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">🎤</div> <!-- Icono de micrófono -->
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Conferencista TEDx: "El Poder del NO"</h3>
+                    <p class="text-gray-700">Una charla inspiradora que aborda la importancia de establecer límites.</p>
+                </div>
+                <!-- Logro 5: Liderazgo y Equilibrio -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">⚖️</div> <!-- Icono de balanza -->
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Modelo de Equilibrio Vida-Trabajo</h3>
+                    <p class="text-gray-700">Demuestra cómo gestionar el tiempo y recursos para una vida integral.</p>
+                </div>
+                <!-- Logro 6: Misión de Vida -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">🌟</div> <!-- Icono de estrella -->
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Impulsora del Empoderamiento Femenino</h3>
+                    <p class="text-gray-700">Su labor va más allá del negocio, fomentando el crecimiento y desarrollo femenino.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Speaker (Detallada de homev2.html) -->
+    <section id="speaker-section" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Mercedes Palomar como Speaker de Alto Impacto</h2>
+            <p class="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-10">
+                Además de su labor como emprendedora, Mercedes es una conferencista reconocida, con charlas que abordan temas como liderazgo femenino, gestión del tiempo, empoderamiento, independencia financiera y construcción de comunidades.
+            </p>
+
+            <!-- Temas de Charlas -->
+            <h3 class="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8 mt-12">Temas Clave de sus Conferencias</h3>
+            <p class="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-10">
+                Mercedes Palomar ofrece charlas dinámicas y personalizadas, adaptándose a las necesidades de cada evento y audiencia. Sus temas principales incluyen:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Tema 1 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-8 text-center">
+                    <div class="text-5xl text-primary mb-4">👑</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Liderazgo Femenino y Empoderamiento</h3>
+                    <p class="text-gray-700">Inspirando a mujeres a asumir roles de liderazgo y a desarrollar su máximo potencial.</p>
+                </div>
+                <!-- Tema 2 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-8 text-center">
+                    <div class="text-5xl text-primary mb-4">⏰</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Gestión del Tiempo y Equilibrio Integral</h3>
+                    <p class="text-gray-700">Estrategias prácticas para equilibrar la vida profesional, personal y familiar sin sacrificar áreas.</p>
+                </div>
+                <!-- Tema 3 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-8 text-center">
+                    <div class="text-5xl text-primary mb-4">💰</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Independencia Financiera y Emprendimiento</h3>
+                    <p class="text-gray-700">Guía para impulsar negocios y alcanzar la autonomía económica.</p>
+                </div>
+                <!-- Tema 4 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-8 text-center">
+                    <div class="text-5xl text-primary mb-4">🌐</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Construcción de Comunidades de Impacto</h3>
+                    <p class="text-gray-700">Claves para crear y mantener redes de apoyo y crecimiento colectivo.</p>
+                </div>
+                <!-- Tema 5 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-8 text-center">
+                    <div class="text-5xl text-primary mb-4">🚫</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">"El Poder del NO": Estableciendo Límites</h3>
+                    <p class="text-gray-700">Basado en su popular charla TEDx, sobre la importancia de decir no para priorizar el bienestar.</p>
+                </div>
+                <!-- Tema 6 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-8 text-center">
+                    <div class="text-5xl text-primary mb-4">🚀</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Innovación y Adaptabilidad en el Emprendimiento</h3>
+                    <p class="text-gray-700">Cómo mantenerse relevante y crecer en un entorno empresarial cambiante.</p>
+                </div>
+            </div>
+
+            <!-- Sección TEDx Talk -->
+            <h3 class="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8 mt-12">Su Reconocida Charla TEDx: "El Poder del NO"</h3>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-10">
+                Descubre la charla que ha inspirado a miles de mujeres a establecer límites saludables y a priorizar su bienestar. Un mensaje fundamental para el éxito personal y profesional.
+            </p>
+            <div class="max-w-4xl mx-auto rounded-lg shadow-xl overflow-hidden mb-16">
+                <!-- Placeholder para el video de TEDx. Reemplazar con el embed real de YouTube/Vimeo -->
+                <div class="relative" style="padding-bottom: 56.25%;">
+                    <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <a href="https://www.ted.com/talks/mercedes_palomar_el_poder_del_no" target="_blank" class="btn btn-primary mx-auto block w-fit">Ver la Charla Completa en TED.com</a>
+
+            <!-- Sección Testimonios -->
+            <h3 class="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8 mt-16">Lo que Dicen de Mercedes</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonio 1 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-8">
+                    <p class="text-lg italic text-gray-800 mb-4">"La energía y claridad de Mercedes son contagiosas. Su charla nos dio herramientas reales para aplicar en nuestro día a día."</p>
+                    <p class="font-semibold text-primary">- Ana G., Directora de Marketing</p>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-8">
+                    <p class="text-lg italic text-gray-800 mb-4">"Una speaker excepcional. Su experiencia con Lady Multitask se traduce en consejos prácticos y muy valiosos."</p>
+                    <p class="font-semibold text-primary">- Carlos M., Organizador de Congresos</p>
+                </div>
+                <!-- Testimonio 3 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-8">
+                    <p class="text-lg italic text-gray-800 mb-4">"Mercedes no solo motiva, sino que empodera. Su mensaje de equilibrio es justo lo que necesitábamos escuchar."</p>
+                    <p class="font-semibold text-primary">- Sofía P., Emprendedora</p>
+                </div>
+            </div>
+
+            <!-- Sección Contratar a Mercedes (CTA para la página de conferencias) -->
+            <div class="bg-primary text-white text-center py-16 rounded-lg mt-16">
+                <h3 class="text-3xl md:text-4xl font-bold mb-8">Contrata a Mercedes Palomar para tu Próximo Evento</h3>
+                <p class="text-lg md:text-xl mb-10 max-w-3xl mx-auto">
+                    Ofrece a tu audiencia una charla inspiradora y transformadora. Mercedes adapta sus presentaciones a eventos corporativos, congresos, talleres y formatos virtuales o presenciales.
+                </p>
+                <a href="conferencias.html" class="btn bg-white text-primary hover:bg-gray-100">
+                    Solicitar Información y Presupuesto
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios y Oportunidades (Monetizables) -->
+    <section id="servicios" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Mis Servicios para Impulsar tu Crecimiento</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Servicio 1: Conferencias y Charlas -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">🎤</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Conferencias y Charlas Inspiradoras</h3>
+                    <p class="text-gray-700 mb-4">Lleva a tu evento un mensaje de empoderamiento, liderazgo femenino, gestión del tiempo y emprendimiento con impacto.</p>
+                    <a href="conferencias.html" class="btn btn-outline text-sm">Contratar Speaker</a>
+                </div>
+
+                <!-- Servicio 2: Cursos y Talleres Online -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">🎓</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Cursos y Talleres Online Exclusivos</h3>
+                    <p class="text-gray-700 mb-4">Programas prácticos para desarrollar habilidades en liderazgo, finanzas, equilibrio vida-trabajo y crecimiento personal.</p>
+                    <a href="cursos-talleres.html" class="btn btn-primary text-sm">Explorar Cursos</a>
+                </div>
+
+                <!-- Servicio 3: Mentoría y Coaching -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">📈</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Mentoría y Coaching Personalizado</h3>
+                    <p class="text-gray-700 mb-4">Guía estratégica 1 a 1 para emprendedoras y líderes que buscan escalar sus proyectos y superar desafíos.</p>
+                    <a href="mentoria-coaching.html" class="btn btn-outline text-sm">Solicitar Sesión</a>
+                </div>
+
+                <!-- Servicio 4: Libro "Ponte las Pilas" -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">📚</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Mi Libro: "Ponte las Pilas"</h3>
+                    <p class="text-gray-700 mb-4">Descubre las claves para gestionar tu tiempo y recursos, logrando un equilibrio integral en tu vida.</p>
+                    <a href="libro-ponte-las-pilas.html" class="btn btn-primary text-sm">Comprar Libro</a>
+                </div>
+
+                <!-- Servicio 5: Lady Multitask Community -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">🤝</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Únete a la Comunidad Lady Multitask</h3>
+                    <p class="text-gray-700 mb-4">Conecta con millones de mujeres, encuentra apoyo, oportunidades de negocio y crecimiento mutuo.</p>
+                    <a href="lady-multitask.html" class="btn btn-outline text-sm">Explorar Comunidad</a>
+                </div>
+
+                <!-- Servicio 6: Consultoría para Empresas -->
+                <div class="bg-white rounded-lg shadow-md p-8 text-center transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-5xl text-primary mb-4">🏢</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Consultoría para Empresas y Organizaciones</h3>
+                    <p class="text-gray-700 mb-4">Desarrollo de programas de empoderamiento femenino, liderazgo y construcción de comunidades internas.</p>
+                    <a href="consultoria-empresas.html" class="btn btn-primary text-sm">Consultar</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto General -->
+    <section id="contacto" class="py-16 md:py-24 bg-primary text-white text-center">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Conecta con Mercedes Palomar</h2>
+            <p class="text-lg md:text-xl mb-10">
+                Estoy aquí para ayudarte a impulsar tu crecimiento personal y profesional. Contáctame para explorar cómo podemos colaborar.
+            </p>
+
+            <div class="bg-white p-8 rounded-lg shadow-lg text-gray-800">
+                <h3 class="text-2xl font-semibold mb-6 text-primary">Envía tu Mensaje</h3>
+                <form id="fullContactForm" class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+                    <div class="col-span-1">
+                        <label for="nombre_contacto" class="block text-gray-700 text-sm font-bold mb-2">Nombre Completo:</label>
+                        <input type="text" id="nombre_contacto" name="nombre_contacto" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="col-span-1">
+                        <label for="email_contacto" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                        <input type="email" id="email_contacto" name="email_contacto" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="col-span-2">
+                        <label for="motivo_contacto" class="block text-gray-700 text-sm font-bold mb-2">Motivo de Contacto:</label>
+                        <select id="motivo_contacto" name="motivo_contacto" class="shadow border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="conferencia">Contratar una Conferencia</option>
+                            <option value="cursos">Interés en Cursos/Talleres</option>
+                            <option value="mentoria">Mentoría/Coaching</option>
+                            <option value="libro">Pregunta sobre el Libro</option>
+                            <option value="alianza">Alianza/Colaboración</option>
+                            <option value="consultoria_empresa">Consultoría Empresarial</option>
+                            <option value="general">Consulta General</option>
+                        </select>
+                    </div>
+                    <div class="col-span-2">
+                        <label for="mensaje_contacto" class="block text-gray-700 text-sm font-bold mb-2">Tu Mensaje:</label>
+                        <textarea id="mensaje_contacto" name="mensaje_contacto" rows="5" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Cuéntame cómo puedo ayudarte..." required></textarea>
+                    </div>
+                    <div class="col-span-2 text-center">
+                        <button type="submit" class="btn btn-primary mt-6 w-full md:w-auto">Enviar Mensaje</button>
+                    </div>
+                </form>
+                <div id="fullFormMessage" class="mt-4 text-center text-sm font-semibold hidden"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Mercedes Palomar. Todos los derechos reservados.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-primary transition duration-200">Facebook</a>
+                <a href="#" class="hover:text-primary transition duration-200">Instagram</a>
+                <a href="#" class="hover:text-primary transition duration-200">LinkedIn</a>
+                <a href="#" class="hover:text-primary transition duration-200">YouTube (TEDx)</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para manejar el envío del formulario (simulado)
+        document.getElementById('fullContactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Previene el envío real del formulario
+
+            const formMessage = document.getElementById('fullFormMessage');
+            formMessage.classList.remove('hidden');
+            formMessage.classList.remove('text-red-600');
+            formMessage.classList.add('text-green-600');
+            formMessage.textContent = '¡Gracias por tu mensaje! Hemos recibido tu solicitud y nos pondremos en contacto contigo pronto.';
+
+            // Aquí podrías agregar código para enviar los datos a un servidor (ej. usando fetch API)
+            // const formData = new FormData(this);
+            // fetch('/api/submit-full-form', {
+            //     method: 'POST',
+            //     body: formData
+            // }).then(response => response.json())
+            //   .then(data => {
+            //       console.log('Success:', data);
+            //       formMessage.textContent = '¡Gracias por tu mensaje! Hemos recibido tu solicitud y nos pondremos en contacto contigo pronto.';
+            //       formMessage.classList.add('text-green-600');
+            //       this.reset(); // Limpiar el formulario
+            //   })
+            //   .catch((error) => {
+            //       console.error('Error:', error);
+            //       formMessage.textContent = 'Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.';
+            //       formMessage.classList.add('text-red-600');
+            //   });
+
+            // Opcional: Limpiar el formulario después de un envío exitoso simulado
+            this.reset();
+        });
+    </script>
+
+</body>
+</html>
