@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos y Talleres Online | Mercedes Palomar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #334155; }
+        .text-primary { color: #ef4444; }
+        .bg-primary { background-color: #ef4444; }
+        .btn { @apply inline-block px-8 py-3 rounded-full font-semibold transition duration-300 ease-in-out; }
+        .btn-primary { @apply bg-primary text-white hover:bg-red-600; }
+        .btn-outline { @apply border border-primary text-primary hover:bg-red-50 hover:text-red-600; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-primary">Mercedes Palomar</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html#servicios" class="hover:text-primary transition duration-200">Volver a Servicios</a></li>
+                    <li><a href="#beneficios" class="hover:text-primary transition duration-200">Beneficios</a></li>
+                    <li><a href="#programas" class="hover:text-primary transition duration-200">Programas</a></li>
+                    <li><a href="#inscribirse" class="hover:text-primary transition duration-200">Inscribirse</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-red-50 to-red-100 py-20 md:py-32 flex items-center justify-center min-h-[500px]">
+        <div class="container mx-auto px-4 text-center z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+                <span class="block text-primary">Cursos y Talleres Online:</span>
+                <span class="block">Aprende a Tu Ritmo, Impulsa Tu Crecimiento</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
+                Programas prácticos y exclusivos diseñados para emprendedoras y líderes que buscan herramientas reales.
+            </p>
+            <a href="#programas" class="btn btn-primary">Ver Programas Disponibles</a>
+        </div>
+        <div class="absolute inset-0 opacity-20">
+            <img src="https://placehold.co/1920x1080/fecaca/ef4444?text=Cursos+Online" alt="" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">¿Por Qué Mis Cursos?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="bg-gray-50 rounded-lg shadow-md p-8">
+                    <div class="text-5xl text-primary mb-4">💡</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Contenido Práctico</h3>
+                    <p class="text-gray-700">Herramientas y estrategias aplicables desde el primer día.</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md p-8">
+                    <div class="text-5xl text-primary mb-4">📈</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Resultados Comprobados</h3>
+                    <p class="text-gray-700">Basados en mi experiencia y el éxito de Lady Multitask.</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md p-8">
+                    <div class="text-5xl text-primary mb-4">👩‍💻</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Flexibilidad Total</h3>
+                    <p class="text-gray-700">Aprende a tu propio ritmo, desde cualquier lugar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programas Destacados -->
+    <section id="programas" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Nuestros Programas Destacados</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Curso 1: Emprendimiento con Propósito -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-primary mb-3">Curso: Emprendimiento con Propósito</h3>
+                    <p class="text-gray-700 mb-4">Aprende a construir un negocio rentable y con impacto social, desde la idea hasta la ejecución.</p>
+                    <ul class="list-disc list-inside text-gray-700 mb-4">
+                        <li>Módulos: 5</li>
+                        <li>Duración: 8 horas</li>
+                        <li>Acceso: Ilimitado</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary text-sm">Más Información</a>
+                </div>
+                <!-- Curso 2: Dominando el Equilibrio Multitask -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-primary mb-3">Taller: Dominando el Equilibrio Multitask</h3>
+                    <p class="text-gray-700 mb-4">Estrategias avanzadas para gestionar tu tiempo, energía y prioridades sin sacrificar tu bienestar.</p>
+                    <ul class="list-disc list-inside text-gray-700 mb-4">
+                        <li>Módulos: 3</li>
+                        <li>Duración: 4 horas</li>
+                        <li>Acceso: 6 meses</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary text-sm">Más Información</a>
+                </div>
+                <!-- Nuevo Curso 3: Liderazgo Femenino para el Siglo XXI -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-primary mb-3">Curso: Liderazgo Femenino para el Siglo XXI</h3>
+                    <p class="text-gray-700 mb-4">Desarrolla habilidades de liderazgo auténtico, negociación y comunicación efectiva para inspirar y guiar equipos.</p>
+                    <ul class="list-disc list-inside text-gray-700 mb-4">
+                        <li>Módulos: 4</li>
+                        <li>Duración: 6 horas</li>
+                        <li>Acceso: Ilimitado</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary text-sm">Más Información</a>
+                </div>
+                <!-- Nuevo Taller 4: Finanzas Personales para Emprendedoras -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-primary mb-3">Taller: Finanzas Personales para Emprendedoras</h3>
+                    <p class="text-gray-700 mb-4">Aprende a gestionar tus finanzas personales y las de tu negocio, creando una base sólida para tu independencia económica.</p>
+                    <ul class="list-disc list-inside text-gray-700 mb-4">
+                        <li>Módulos: 2</li>
+                        <li>Duración: 3 horas</li>
+                        <li>Acceso: 3 meses</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary text-sm">Más Información</a>
+                </div>
+                <!-- Nuevo Curso 5: Construyendo tu Marca Personal con Propósito -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-primary mb-3">Curso: Construyendo tu Marca Personal con Propósito</h3>
+                    <p class="text-gray-700 mb-4">Define tu identidad, comunica tu valor y posiciona tu marca personal para atraer nuevas oportunidades y conexiones.</p>
+                    <ul class="list-disc list-inside text-gray-700 mb-4">
+                        <li>Módulos: 4</li>
+                        <li>Duración: 7 horas</li>
+                        <li>Acceso: Ilimitado</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary text-sm">Más Información</a>
+                </div>
+                <!-- Nuevo Taller 6: Networking Estratégico y Creación de Redes -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold text-primary mb-3">Taller: Networking Estratégico y Creación de Redes</h3>
+                    <p class="text-gray-700 mb-4">Aprende a construir relaciones significativas y a expandir tu red de contactos para el crecimiento personal y profesional.</p>
+                    <ul class="list-disc list-inside text-gray-700 mb-4">
+                        <li>Módulos: 2</li>
+                        <li>Duración: 3 horas</li>
+                        <li>Acceso: 6 meses</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary text-sm">Más Información</a>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="btn btn-outline">Ver Catálogo Completo de Cursos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Inscribirse -->
+    <section id="inscribirse" class="py-16 md:py-24 bg-primary text-white text-center">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">¡Inscríbete Hoy y Transforma Tu Futuro!</h2>
+            <p class="text-lg md:text-xl mb-10">
+                No esperes más para invertir en tu desarrollo. Mis cursos te darán las herramientas que necesitas.
+            </p>
+            <a href="#" class="btn bg-white text-primary hover:bg-gray-100">
+                Inscribirme Ahora
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Mercedes Palomar. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

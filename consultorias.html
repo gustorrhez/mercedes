@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultoría para Empresas | Mercedes Palomar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #334155; }
+        .text-primary { color: #ef4444; }
+        .bg-primary { background-color: #ef4444; }
+        .btn { @apply inline-block px-8 py-3 rounded-full font-semibold transition duration-300 ease-in-out; }
+        .btn-primary { @apply bg-primary text-white hover:bg-red-600; }
+        .btn-outline { @apply border border-primary text-primary hover:bg-red-50 hover:text-red-600; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-primary">Mercedes Palomar</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html#servicios" class="hover:text-primary transition duration-200">Volver a Servicios</a></li>
+                    <li><a href="#que-ofrezco" class="hover:text-primary transition duration-200">Qué Ofrezco</a></li>
+                    <li><a href="#proceso" class="hover:text-primary transition duration-200">Proceso</a></li>
+                    <li><a href="#solicitar" class="hover:text-primary transition duration-200">Solicitar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-red-50 to-red-100 py-20 md:py-32 flex items-center justify-center min-h-[500px]">
+        <div class="container mx-auto px-4 text-center z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+                <span class="block text-primary">Consultoría para Empresas:</span>
+                <span class="block">Impulsa el Liderazgo Femenino en Tu Organización</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
+                Programas y estrategias personalizadas para fomentar el empoderamiento, la productividad y la creación de comunidades internas.
+            </p>
+            <a href="#solicitar" class="btn btn-primary">Solicitar Propuesta Personalizada</a>
+        </div>
+        <div class="absolute inset-0 opacity-20">
+            <img src="https://placehold.co/1920x1080/fecaca/ef4444?text=Consultoria+Empresarial" alt="" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <!-- Qué Ofrezco -->
+    <section id="que-ofrezco" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Mi Propuesta de Valor para Tu Empresa</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-lg shadow-md p-8 text-center">
+                    <div class="text-5xl text-primary mb-4">👩‍💻</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Programas de Liderazgo Femenino</h3>
+                    <p class="text-gray-700">Diseño e implementación de talleres y capacitaciones para el desarrollo de líderes mujeres.</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md p-8 text-center">
+                    <div class="text-5xl text-primary mb-4">🤝</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Estrategias de Comunidad Interna</h3>
+                    <p class="text-gray-700">Asesoría para construir y fortalecer redes de apoyo y colaboración entre tus equipos.</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md p-8 text-center">
+                    <div class="text-5xl text-primary mb-4">⚖️</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Equilibrio y Bienestar Laboral</h3>
+                    <p class="text-gray-700">Charlas y workshops sobre gestión del tiempo, límites y productividad consciente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso de Consultoría -->
+    <section id="proceso" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Nuestro Proceso de Colaboración</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <div class="text-5xl text-primary mb-4">1</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Diagnóstico</h3>
+                    <p class="text-gray-700">Entendemos tus necesidades y objetivos específicos.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <div class="text-5xl text-primary mb-4">2</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Diseño de Solución</h3>
+                    <p class="text-gray-700">Creamos un programa o estrategia a medida para tu organización.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <div class="text-5xl text-primary mb-4">3</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Implementación y Seguimiento</h3>
+                    <p class="text-gray-700">Ejecutamos el plan y medimos los resultados para asegurar el impacto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientes / Empresas Colaboradoras (Placeholder) -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Empresas que Confían en Mercedes</h2>
+            <div class="flex flex-wrap justify-center items-center gap-8">
+                <img src="https://placehold.co/150x80/cccccc/333333?text=Logo+Empresa+1" alt="" class="h-20 opacity-75 hover:opacity-100 transition duration-300">
+                <img src="https://placehold.co/150x80/cccccc/333333?text=Logo+Empresa+2" alt="" class="h-20 opacity-75 hover:opacity-100 transition duration-300">
+                <img src="https://placehold.co/150x80/cccccc/333333?text=Logo+Empresa+3" alt="" class="h-20 opacity-75 hover:opacity-100 transition duration-300">
+                <img src="https://placehold.co/150x80/cccccc/333333?text=Logo+Empresa+4" alt="" class="h-20 opacity-75 hover:opacity-100 transition duration-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Solicitar Propuesta -->
+    <section id="solicitar" class="py-16 md:py-24 bg-primary text-white text-center">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Transforma Tu Organización con Mercedes Palomar</h2>
+            <p class="text-lg md:text-xl mb-10">
+                Solicita una consulta inicial para diseñar una solución a la medida de las necesidades de tu empresa.
+            </p>
+            <a href="mailto:consultoria@mercedespalomar.com" class="btn bg-white text-primary hover:bg-gray-100">
+                Solicitar Propuesta Personalizada
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Mercedes Palomar. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
